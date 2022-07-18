@@ -1,0 +1,2 @@
+# BER_analysis
+Following is a MATLAB script, otherwise known as a testbench, that uses System objects to perform BER analysis of a simple transceiver system. The transceiver is composed of a QPSK modulator, an Additive White Gaussian Noise (AWGN) channel, and a QPSK demodulator. Note that this code employs four System objects from the Communications System Toolbox: comm.QPSKModulator, comm.AWGNChannel, comm.QPSKDemodulator, and comm.ErrorRate.
